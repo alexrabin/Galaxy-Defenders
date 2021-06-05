@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E61A1CA01DF224BC00BB971F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61A1C9F1DF224BC00BB971F /* AppDelegate.swift */; };
+		E61A1CA21DF224BC00BB971F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E61A1CA11DF224BC00BB971F /* GameScene.sks */; };
+		E61A1CA41DF224BC00BB971F /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = E61A1CA31DF224BC00BB971F /* Actions.sks */; };
+		E61A1CA61DF224BC00BB971F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61A1CA51DF224BC00BB971F /* GameScene.swift */; };
+		E61A1CA81DF224BC00BB971F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61A1CA71DF224BC00BB971F /* GameViewController.swift */; };
+		E61A1CAB1DF224BC00BB971F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E61A1CA91DF224BC00BB971F /* Main.storyboard */; };
+		E61A1CAD1DF224BC00BB971F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E61A1CAC1DF224BC00BB971F /* Assets.xcassets */; };
+		E61A1CB01DF224BC00BB971F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E61A1CAE1DF224BC00BB971F /* LaunchScreen.storyboard */; };
+		E61A1CB81DF2263000BB971F /* stars.atlas in Resources */ = {isa = PBXBuildFile; fileRef = E61A1CB71DF2263000BB971F /* stars.atlas */; };
+		E61A1DFF1DF3615800BB971F /* Blue.atlas in Resources */ = {isa = PBXBuildFile; fileRef = E61A1DFE1DF3615800BB971F /* Blue.atlas */; };
+		E698F3781DF366260048D782 /* aestroid_brown.png in Resources */ = {isa = PBXBuildFile; fileRef = E698F36E1DF366260048D782 /* aestroid_brown.png */; };
+		E698F3791DF366260048D782 /* aestroid_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = E698F36F1DF366260048D782 /* aestroid_dark.png */; };
+		E698F37A1DF366260048D782 /* aestroid_gay_2.png in Resources */ = {isa = PBXBuildFile; fileRef = E698F3701DF366260048D782 /* aestroid_gay_2.png */; };
+		E698F37B1DF366260048D782 /* aestroid_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = E698F3711DF366260048D782 /* aestroid_gray.png */; };
+		E698F37C1DF366260048D782 /* bullet.png in Resources */ = {isa = PBXBuildFile; fileRef = E698F3721DF366260048D782 /* bullet.png */; };
+		E698F37D1DF366260048D782 /* bullet_red.png in Resources */ = {isa = PBXBuildFile; fileRef = E698F3731DF366260048D782 /* bullet_red.png */; };
+		E698F37E1DF366260048D782 /* mothership_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = E698F3741DF366260048D782 /* mothership_blue.png */; };
+		E698F37F1DF366260048D782 /* mothership_try.png in Resources */ = {isa = PBXBuildFile; fileRef = E698F3751DF366260048D782 /* mothership_try.png */; };
+		E698F3801DF366260048D782 /* space_bomb_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = E698F3761DF366260048D782 /* space_bomb_blue.png */; };
+		E698F3811DF366260048D782 /* spaceship_enemy_red.png in Resources */ = {isa = PBXBuildFile; fileRef = E698F3771DF366260048D782 /* spaceship_enemy_red.png */; };
+		E698F3831DF368100048D782 /* spaceship_enemy_rotated.png in Resources */ = {isa = PBXBuildFile; fileRef = E698F3821DF368100048D782 /* spaceship_enemy_rotated.png */; };
+		E698F3851DF375B80048D782 /* GameScene+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E698F3841DF375B80048D782 /* GameScene+extension.swift */; };
+		E698F38D1DF3972C0048D782 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = E698F38C1DF3972C0048D782 /* Explosion.sks */; };
+		E698F38F1DF3984A0048D782 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = E698F38E1DF3984A0048D782 /* spark.png */; };
+		E698F3911DF4AF600048D782 /* theBoldFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E698F3901DF4AF510048D782 /* theBoldFont.ttf */; };
+		E698F3951DF4AFF40048D782 /* HomeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E698F3941DF4AFF40048D782 /* HomeScene.swift */; };
+		E698F3971DF4B2F30048D782 /* HomeScene+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E698F3961DF4B2F30048D782 /* HomeScene+extension.swift */; };
+		E698F39B1DF4CC250048D782 /* clicker.png in Resources */ = {isa = PBXBuildFile; fileRef = E698F39A1DF4CC250048D782 /* clicker.png */; };
+		E698F39F1DF519490048D782 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E698F39E1DF519490048D782 /* GameOverScene.swift */; };
+		E698F3A11DF51F2E0048D782 /* GameOverScene+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E698F3A01DF51F2E0048D782 /* GameOverScene+extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E61A1C9C1DF224BC00BB971F /* Galaxy Defenders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Galaxy Defenders.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E61A1C9F1DF224BC00BB971F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E61A1CA11DF224BC00BB971F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		E61A1CA31DF224BC00BB971F /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		E61A1CA51DF224BC00BB971F /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		E61A1CA71DF224BC00BB971F /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		E61A1CAA1DF224BC00BB971F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E61A1CAC1DF224BC00BB971F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E61A1CAF1DF224BC00BB971F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E61A1CB11DF224BC00BB971F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E61A1CB71DF2263000BB971F /* stars.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = stars.atlas; sourceTree = "<group>"; };
+		E61A1DFE1DF3615800BB971F /* Blue.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Blue.atlas; sourceTree = "<group>"; };
+		E698F36E1DF366260048D782 /* aestroid_brown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aestroid_brown.png; sourceTree = "<group>"; };
+		E698F36F1DF366260048D782 /* aestroid_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aestroid_dark.png; sourceTree = "<group>"; };
+		E698F3701DF366260048D782 /* aestroid_gay_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aestroid_gay_2.png; sourceTree = "<group>"; };
+		E698F3711DF366260048D782 /* aestroid_gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aestroid_gray.png; sourceTree = "<group>"; };
+		E698F3721DF366260048D782 /* bullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bullet.png; sourceTree = "<group>"; };
+		E698F3731DF366260048D782 /* bullet_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bullet_red.png; sourceTree = "<group>"; };
+		E698F3741DF366260048D782 /* mothership_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mothership_blue.png; sourceTree = "<group>"; };
+		E698F3751DF366260048D782 /* mothership_try.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mothership_try.png; sourceTree = "<group>"; };
+		E698F3761DF366260048D782 /* space_bomb_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = space_bomb_blue.png; sourceTree = "<group>"; };
+		E698F3771DF366260048D782 /* spaceship_enemy_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spaceship_enemy_red.png; sourceTree = "<group>"; };
+		E698F3821DF368100048D782 /* spaceship_enemy_rotated.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spaceship_enemy_rotated.png; sourceTree = "<group>"; };
+		E698F3841DF375B80048D782 /* GameScene+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GameScene+extension.swift"; sourceTree = "<group>"; };
+		E698F38C1DF3972C0048D782 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		E698F38E1DF3984A0048D782 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		E698F3901DF4AF510048D782 /* theBoldFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = theBoldFont.ttf; sourceTree = "<group>"; };
+		E698F3941DF4AFF40048D782 /* HomeScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScene.swift; sourceTree = "<group>"; };
+		E698F3961DF4B2F30048D782 /* HomeScene+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HomeScene+extension.swift"; sourceTree = "<group>"; };
+		E698F39A1DF4CC250048D782 /* clicker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clicker.png; sourceTree = "<group>"; };
+		E698F39E1DF519490048D782 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		E698F3A01DF51F2E0048D782 /* GameOverScene+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GameOverScene+extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E61A1C991DF224BC00BB971F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E61A1C931DF224BC00BB971F = {
+			isa = PBXGroup;
+			children = (
+				E61A1C9E1DF224BC00BB971F /* Galaxy Defenders */,
+				E61A1C9D1DF224BC00BB971F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E61A1C9D1DF224BC00BB971F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E61A1C9C1DF224BC00BB971F /* Galaxy Defenders.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E61A1C9E1DF224BC00BB971F /* Galaxy Defenders */ = {
+			isa = PBXGroup;
+			children = (
+				E698F3901DF4AF510048D782 /* theBoldFont.ttf */,
+				E61A1C9F1DF224BC00BB971F /* AppDelegate.swift */,
+				E61A1CA31DF224BC00BB971F /* Actions.sks */,
+				E61A1CA71DF224BC00BB971F /* GameViewController.swift */,
+				E698F39C1DF4CFDC0048D782 /* Home Scene */,
+				E698F3921DF4AF990048D782 /* Game Scene */,
+				E698F3A21DF51F310048D782 /* GameOverScene */,
+				E698F39D1DF4D2830048D782 /* Explosion */,
+				E61A1CAE1DF224BC00BB971F /* LaunchScreen.storyboard */,
+				E61A1CA91DF224BC00BB971F /* Main.storyboard */,
+				E61A1CB11DF224BC00BB971F /* Info.plist */,
+				E698F39A1DF4CC250048D782 /* clicker.png */,
+				E61A1CAC1DF224BC00BB971F /* Assets.xcassets */,
+				E698F3931DF4AFB90048D782 /* Atlases */,
+				E698F36D1DF366260048D782 /* Assets */,
+			);
+			path = "Galaxy Defenders";
+			sourceTree = "<group>";
+		};
+		E698F36D1DF366260048D782 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E698F36E1DF366260048D782 /* aestroid_brown.png */,
+				E698F36F1DF366260048D782 /* aestroid_dark.png */,
+				E698F3701DF366260048D782 /* aestroid_gay_2.png */,
+				E698F3711DF366260048D782 /* aestroid_gray.png */,
+				E698F3721DF366260048D782 /* bullet.png */,
+				E698F3731DF366260048D782 /* bullet_red.png */,
+				E698F3741DF366260048D782 /* mothership_blue.png */,
+				E698F3751DF366260048D782 /* mothership_try.png */,
+				E698F3761DF366260048D782 /* space_bomb_blue.png */,
+				E698F3771DF366260048D782 /* spaceship_enemy_red.png */,
+				E698F3821DF368100048D782 /* spaceship_enemy_rotated.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		E698F3921DF4AF990048D782 /* Game Scene */ = {
+			isa = PBXGroup;
+			children = (
+				E61A1CA51DF224BC00BB971F /* GameScene.swift */,
+				E698F3841DF375B80048D782 /* GameScene+extension.swift */,
+				E61A1CA11DF224BC00BB971F /* GameScene.sks */,
+			);
+			name = "Game Scene";
+			sourceTree = "<group>";
+		};
+		E698F3931DF4AFB90048D782 /* Atlases */ = {
+			isa = PBXGroup;
+			children = (
+				E61A1DFE1DF3615800BB971F /* Blue.atlas */,
+				E61A1CB71DF2263000BB971F /* stars.atlas */,
+			);
+			name = Atlases;
+			sourceTree = "<group>";
+		};
+		E698F39C1DF4CFDC0048D782 /* Home Scene */ = {
+			isa = PBXGroup;
+			children = (
+				E698F3941DF4AFF40048D782 /* HomeScene.swift */,
+				E698F3961DF4B2F30048D782 /* HomeScene+extension.swift */,
+			);
+			name = "Home Scene";
+			sourceTree = "<group>";
+		};
+		E698F39D1DF4D2830048D782 /* Explosion */ = {
+			isa = PBXGroup;
+			children = (
+				E698F38C1DF3972C0048D782 /* Explosion.sks */,
+				E698F38E1DF3984A0048D782 /* spark.png */,
+			);
+			name = Explosion;
+			sourceTree = "<group>";
+		};
+		E698F3A21DF51F310048D782 /* GameOverScene */ = {
+			isa = PBXGroup;
+			children = (
+				E698F39E1DF519490048D782 /* GameOverScene.swift */,
+				E698F3A01DF51F2E0048D782 /* GameOverScene+extension.swift */,
+			);
+			name = GameOverScene;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E61A1C9B1DF224BC00BB971F /* Galaxy Defenders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E61A1CB41DF224BC00BB971F /* Build configuration list for PBXNativeTarget "Galaxy Defenders" */;
+			buildPhases = (
+				E61A1C981DF224BC00BB971F /* Sources */,
+				E61A1C991DF224BC00BB971F /* Frameworks */,
+				E61A1C9A1DF224BC00BB971F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Galaxy Defenders";
+			productName = "Galaxy Defenders";
+			productReference = E61A1C9C1DF224BC00BB971F /* Galaxy Defenders.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E61A1C941DF224BC00BB971F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 1250;
+				ORGANIZATIONNAME = "Alex Rabin";
+				TargetAttributes = {
+					E61A1C9B1DF224BC00BB971F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = KX43SXV662;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E61A1C971DF224BC00BB971F /* Build configuration list for PBXProject "Galaxy Defenders" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E61A1C931DF224BC00BB971F;
+			productRefGroup = E61A1C9D1DF224BC00BB971F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E61A1C9B1DF224BC00BB971F /* Galaxy Defenders */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E61A1C9A1DF224BC00BB971F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E698F3911DF4AF600048D782 /* theBoldFont.ttf in Resources */,
+				E698F39B1DF4CC250048D782 /* clicker.png in Resources */,
+				E61A1CAB1DF224BC00BB971F /* Main.storyboard in Resources */,
+				E698F38D1DF3972C0048D782 /* Explosion.sks in Resources */,
+				E698F37C1DF366260048D782 /* bullet.png in Resources */,
+				E61A1DFF1DF3615800BB971F /* Blue.atlas in Resources */,
+				E698F37B1DF366260048D782 /* aestroid_gray.png in Resources */,
+				E698F38F1DF3984A0048D782 /* spark.png in Resources */,
+				E61A1CA21DF224BC00BB971F /* GameScene.sks in Resources */,
+				E61A1CAD1DF224BC00BB971F /* Assets.xcassets in Resources */,
+				E698F37E1DF366260048D782 /* mothership_blue.png in Resources */,
+				E61A1CB01DF224BC00BB971F /* LaunchScreen.storyboard in Resources */,
+				E698F3801DF366260048D782 /* space_bomb_blue.png in Resources */,
+				E698F37A1DF366260048D782 /* aestroid_gay_2.png in Resources */,
+				E698F37F1DF366260048D782 /* mothership_try.png in Resources */,
+				E698F3791DF366260048D782 /* aestroid_dark.png in Resources */,
+				E698F3811DF366260048D782 /* spaceship_enemy_red.png in Resources */,
+				E698F37D1DF366260048D782 /* bullet_red.png in Resources */,
+				E61A1CA41DF224BC00BB971F /* Actions.sks in Resources */,
+				E61A1CB81DF2263000BB971F /* stars.atlas in Resources */,
+				E698F3781DF366260048D782 /* aestroid_brown.png in Resources */,
+				E698F3831DF368100048D782 /* spaceship_enemy_rotated.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E61A1C981DF224BC00BB971F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E698F3851DF375B80048D782 /* GameScene+extension.swift in Sources */,
+				E61A1CA61DF224BC00BB971F /* GameScene.swift in Sources */,
+				E698F39F1DF519490048D782 /* GameOverScene.swift in Sources */,
+				E61A1CA81DF224BC00BB971F /* GameViewController.swift in Sources */,
+				E698F3A11DF51F2E0048D782 /* GameOverScene+extension.swift in Sources */,
+				E698F3971DF4B2F30048D782 /* HomeScene+extension.swift in Sources */,
+				E698F3951DF4AFF40048D782 /* HomeScene.swift in Sources */,
+				E61A1CA01DF224BC00BB971F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E61A1CA91DF224BC00BB971F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E61A1CAA1DF224BC00BB971F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E61A1CAE1DF224BC00BB971F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E61A1CAF1DF224BC00BB971F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E61A1CB21DF224BC00BB971F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E61A1CB31DF224BC00BB971F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E61A1CB51DF224BC00BB971F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KX43SXV662;
+				INFOPLIST_FILE = "Galaxy Defenders/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RabinApps.Galaxy-Defenders";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		E61A1CB61DF224BC00BB971F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KX43SXV662;
+				INFOPLIST_FILE = "Galaxy Defenders/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RabinApps.Galaxy-Defenders";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E61A1C971DF224BC00BB971F /* Build configuration list for PBXProject "Galaxy Defenders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E61A1CB21DF224BC00BB971F /* Debug */,
+				E61A1CB31DF224BC00BB971F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E61A1CB41DF224BC00BB971F /* Build configuration list for PBXNativeTarget "Galaxy Defenders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E61A1CB51DF224BC00BB971F /* Debug */,
+				E61A1CB61DF224BC00BB971F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E61A1C941DF224BC00BB971F /* Project object */;
+}
